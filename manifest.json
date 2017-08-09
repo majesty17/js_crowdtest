@@ -1,0 +1,26 @@
+{
+  "name": "crowdtest辅助",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "crowdtest辅助Chrome扩展",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "crowdtest辅助",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "background.js"
+      ],
+      "matches": [
+            "http://test.baidu.com/mark/task/do/id/*"
+      ]
+    }
+  ]
+}
