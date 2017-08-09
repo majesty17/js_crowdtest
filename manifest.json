@@ -19,7 +19,7 @@
         "background.js"
       ],
       "matches": [
-            "http://test.baidu.com/mark/task/do/id/*"
+        "http://test.baidu.com/mark/task/do/id/*"
       ]
     }
   ]
