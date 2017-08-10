@@ -22,5 +22,6 @@
         "http://test.baidu.com/mark/task/do/id/*"
       ]
     }
-  ]
+  ],
+  "web_accessible_resources": ["js/inject.js"]
 }
